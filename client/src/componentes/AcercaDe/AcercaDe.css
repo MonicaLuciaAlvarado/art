@@ -1,0 +1,152 @@
+.titulo {
+    margin-left: 2%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(15, 14, 14);
+    
+}
+
+.Chiara {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    border-color: azure;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.Maureen {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.Monica {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.Marie {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    border-color: rgba(112, 203, 203, 0.79);
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.Cristhel {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    border-color: rgba(112, 203, 203, 0.79);
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.Jenny {
+    height: 500px;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 8px;
+    border-color: rgba(112, 203, 203, 0.79);
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 5px 5px 10px #121111;
+}
+
+.contenido {
+    background-color: #212529;
+    color: white;
+    border-radius: 8px;
+    margin: 1%;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #121111;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fotos img{
+    border-radius: 50%;
+}
+
+.desarrolladoras1{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.top_acerca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagprinc{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.pagprinc:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.linkedin1{
+    position: fixed;
+    bottom: 15px;
+}

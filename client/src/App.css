@@ -1,0 +1,732 @@
+.logo {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.acercade {
+  color: white;
+  font-size: 15px;
+}
+
+.acercade:hover {
+  color: white;
+  font-size: 17px;
+}
+
+.mt-3 {
+  width: 299px;
+}
+
+/*IMAGEN DEL INICIO*/
+.principal {
+  height: 450px;
+}
+
+.buscador {
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid rgb(104, 98, 98);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+.buscador:hover {
+  filter: drop-shadow(0 0 12px rgba(243, 242, 241, 0.155));
+}
+
+
+/*TARJETAS MENU PRINCIPAL*/
+
+
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 200px;
+  gap: 1rem;
+  grid-auto-flow: row dense;
+  padding: 30px;
+}
+
+.card-image {
+  cursor: pointer;
+}
+
+.img-thumbnail{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-gallery__item:nth-child(11n+1) {
+  grid-column: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+6) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+7) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+8) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+9) {
+  grid-row: span 3;
+}
+
+@media all and (min-width: 320px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .grid-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.grid-gallery__item:hover{
+  filter: drop-shadow(0 0 10px rgba(243, 242, 228, 0.71));
+}
+
+/*MIS OBRAS*/
+.misObras {
+  margin: 30px;
+  height: 100vh;
+  border: 1px solid rgb(249, 250, 250);
+  background-color: rgba(40, 44, 48, 0.409);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/*DETALLE*/
+.detalle {
+  margin: 60px auto;
+  width: 75%;
+  background-color: rgba(209, 200, 196, 0.121);
+  border: 1px solid white;
+  border-radius: 0%;
+}
+
+.detalle img {
+  height: 100%;
+}
+
+.botones {
+  display: flex;
+  gap: 5px;
+}
+
+.likes {
+  cursor: pointer;
+}
+
+/*NUEVA OBRA*/
+.nuevo {
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.468);
+  border: 1px solid white;
+}
+
+.fondo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://smcarpentry.net/wp-content/uploads/2016/02/wood-bg-2.jpg);
+  /*
+  https://quiz.upsocl.com/wp-content/uploads/2013/02/port-1.jpg
+  https://quiz.upsocl.com/wp-content/uploads/2013/02/port-1.jpg
+  */
+
+}
+
+/*LOGING*/
+.formulario1,
+.formulario2 {
+  margin: 100px auto;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.formulario1 {
+  width: 55%;
+}
+
+.linkLogin {
+  font-size: 15px;
+}
+
+.login_izq {
+  display: flex;
+  flex: 1.6;
+  flex-direction: column;
+}
+
+.linkLogin:hover {
+  font-size: 16px;
+}
+
+.formulario2 {
+  margin: 50px auto;
+}
+
+.decoracionLogin img {
+  width: 495px;
+  height: 100%;
+  border-radius: 0 25px 25px 0;
+}
+
+.decoracion-2 img {
+  width: 300px;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+}
+
+/*.fondoL{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://madpix.com.br/wp-content/uploads/2021/04/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-scaled.jpg);
+}*/
+
+/*FOOTER*/
+
+footer p {
+  font-size: small;
+}
+
+.logo2 {
+  width: 160px;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.red {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px 7px;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  background-color: #006296;
+}
+
+.github {
+  width: 35px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.github:hover {
+  background-color: white;
+}
+
+.contacto {
+  text-align: start;
+}
+
+.email,
+.numero {
+  width: 15px;
+}
+
+.derechos {
+  font-size: 10px;
+}
+
+/*miobra*/
+.footer_obras {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  margin-top: 6%;
+}
+
+/*lista actividades*/
+
+.actividadesLink {
+  color: white;
+  text-decoration: none;
+  width: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(128, 87, 128, 0.707);
+  font-size: 15px;
+}
+
+.actividadesLink:hover {
+  font-size: 16px;
+}
+
+.actividadesLink1 {
+  color: white;
+  text-decoration: none;
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(128, 87, 128, 0.707);
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.actividadesLink1:hover {
+  font-size: 17px;
+}
+
+.link_actividades {
+  display: flex;
+  gap: 40px;
+}
+
+.nav_act {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-around;
+  margin-left: 25px;
+}
+
+.actividades_centro {
+  padding: 25px;
+  background-image: url("./componentes/imagenes/fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.actividades_selector {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.actividades_selector label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.actividades_tabla {
+  width: 90%;
+  height: 90%;
+  background-color: rgba(91, 106, 106, 0.571);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.top_act {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  align-items: baseline;
+}
+
+.tabla_tabla {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.columnas {
+  width: 10%;
+}
+
+.columnas2{
+  width: 10%;
+}
+
+.columna_a {
+  width: 40%;
+  text-wrap: wrap;
+}
+
+.top {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.tabla_content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*museos*/
+.museos_centro {
+  padding: 70px;
+  background-image: url("./componentes/imagenes/museos2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-size: 16px;
+}
+
+.museos_tabla {
+  height: 90%;
+  background-color: rgba(48, 49, 49, 0.533);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 25px;
+  color: rgb(230, 225, 219);
+}
+
+.museos_top {
+  font-size: 23px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.museos_body {
+  margin-top: 20px;
+}
+
+.columna_b {
+  width: 13%;
+  text-wrap: wrap;
+}
+
+/*museo*/
+.informacionPrincipal {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre_museo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.museo_foto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 450px;
+  height: 250px;
+}
+
+.body_museo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a768668;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.spanub {
+  margin-bottom: 40px;
+}
+
+.todo_museo {
+  background-color: rgb(15, 14, 14);
+  padding-bottom: 25px;
+}
+
+.museo_bottom {
+  margin-top: 30px;
+  width: 90%;
+}
+
+#map {
+  margin-top: 200px;
+}
+
+.imagen-perfil {
+  width: 150px;
+  /* Cambia el tamaño según tus preferencias */
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.descripcion {
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.iconofoto {
+  margin-top: 10px;
+}
+.columnas-museos{
+  width: 10%;
+  padding: 20px;
+}
+.columnas-museos-descripcion{
+  width: 45%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.horario{
+  text-align: justify;
+}
+
+.columnas-museos-lugar{
+  width: 15%;
+  padding: 20px;
+}
+.tarjetaTitulo{
+  color: tomato;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.cuerpoCard{
+  font-size: 10px;
+}
+
+.tarjetaVer{
+  width: 130px;
+}
+
+/*perfil*/
+.imagen-perfil {
+  max-width: 150px;
+  margin: 0 auto; 
+  display: block; 
+}
+
+.descripcion {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+}
+
+.iconofoto {
+  cursor: pointer
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/*crear actividad*/
+.crear_body{
+  padding: 50px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(20, 110, 115, 0.599);
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+
+/*actualizar*/
+.form_act{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.act_izq{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input{
+  width: 90%;
+}
+
+.izq_label{
+  width: 40%;
+}
+
+.map_crear{
+  margin-top: 20px;
+}
+
+.actualizar{
+  margin-top: 30px;
+}
+
+/*ver*/
+.ver{
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(33, 124, 129, 0.517);
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.ver_izq{
+  width: 40%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-left: 50px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.info_act{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.ver_img{
+  width: 350px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.mapa_ver{
+  margin-right: 70px;
+  margin-top: 150px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.linkpagina{
+  font-size: 10px;
+}
+
+.link_actmus{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.link_actmus:hover{
+  text-decoration: underline;
+}
+
+.link_act{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 30ch;
+}
+
+.check{
+  width: 25px;
+}
+
+.check2{
+  width: 18px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_ver{
+  width: 100%;
+  height: auto;
+  flex: 1.5;
+  align-items: center;
+  text-align: center;
+}
+
+.btn_borrar{
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.btn_borrar1{
+  flex: 1.5;
+  text-align: center;
+}
+
+.label_map{
+  font-size: 13px;
+}
+
+.row1{
+  margin-bottom: 50px;
+}
